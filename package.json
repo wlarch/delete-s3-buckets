@@ -1,0 +1,13 @@
+{
+  "name": "delete-s3-buckets",
+  "version": "1.0.0",
+  "description": "Delete multiple S3 non-empty unversionned buckets.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.649.0",
+    "enquirer": "^2.3.4"
+  }
+}
